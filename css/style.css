@@ -8,3 +8,75 @@ body {
 	/*	very light grey almost white*/
 	background-color: #f4f4f4; 
 }
+
+/*Global */
+
+.container {
+	/*	responsive*/
+	width: 80%;
+	/*	center*/
+	margin: auto;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*Header styles*/
+
+header {
+	/*	codecademy's blue and red apparently https://brandcolors.net/  */
+	background: #204056;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #f65a5b 3px solid;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+
+/*make menu horizontal */
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+/*float branding and menu*/
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .current a {
+	color: #f65a5b;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+
+
+
