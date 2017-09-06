@@ -24,6 +24,20 @@ ul {
 	padding: 0;
 }
 
+.btn {
+	height: 38px;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+.btn:hover,
+header a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
 /*Header styles*/
 
 header {
@@ -41,7 +55,6 @@ header a {
 	text-transform: uppercase;
 	font-size: 16px;
 }
-
 
 
 /*make menu horizontal */
@@ -72,11 +85,6 @@ header .current a {
 	font-weight: bold;
 }
 
-header a:hover {
-	color: #cccccc;
-	font-weight: bold;
-}
-
 /*Showcase area */
 
 #showcase {
@@ -98,7 +106,6 @@ header a:hover {
 	margin-bottom: 10px;
 }
 
-
 #showcase p {
 	font-size: 24px;
 }
@@ -113,11 +120,31 @@ header a:hover {
 	padding: 0; 
 }
 
+/* call to action section */
 
+#call-to-action {
+	padding: 15px;
+	color: #ffffff;
+	background: #204056;
+}
 
+#call-to-action h1 {
+	float: left;
+}
 
+#call-to-action form {
+	float: right;
+	padding-top: 15px;
+}
 
+#call-to-action .button-gh {
+	background: #000000;
+}
 
+#call-to-action .button-li {
+	background: #0073B0;
+}
+	
 
 
 
