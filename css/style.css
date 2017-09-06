@@ -1,3 +1,6 @@
+	/*	codecademy's blue and red apparently https://brandcolors.net/  */
+/*	Blue background: #204056;*/
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -38,10 +41,17 @@ header a:hover {
 	font-weight: bold;
 }
 
+.dark-bg {
+	background: #204056;
+	padding: 15px;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 /*Header styles*/
 
 header {
-	/*	codecademy's blue and red apparently https://brandcolors.net/  */
 	background: #204056;
 	color: #ffffff;
 	padding-top: 30px;
@@ -144,15 +154,49 @@ header .current a {
 #call-to-action .button-li {
 	background: #0073B0;
 }
+
 	
+/*  skills area  */
 
+#skills {
+	margin-top: 20px;
+}
 
+#skills .skill {
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
 
+#skills .skill img {
+	width: 190px;
+}
 
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #f65a5b;
+	text-align: center;
+}
 
+/*About Page*/
 
+aside#sidebar {
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
 
+article#main-col {
+	float: left;
+	width: 65%;
+}
 
+/*All other pages - not home */
 
-
+.footer-pages {
+	margin-top: 0px;
+}
 
